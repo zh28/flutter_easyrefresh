@@ -23,22 +23,22 @@ class GlobalEasyRefreshLocalizations implements WidgetsLocalizations {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
-  String get completeLoad => "Load done";
-  String get completeRefresh => "Refresh done";
-  String get loadFailed => "Load failed";
-  String get loadFinish => "Load completed";
-  String get loaded => "Load completed";
-  String get loading => "Loading...";
-  String get noMore => "No more";
-  String get pullToRefresh => "Pull to refresh";
-  String get pushToLoad => "Pull to load";
-  String get refreshFailed => "Refresh failed";
-  String get refreshFinish => "Refresh completed";
-  String get refreshed => "Refresh completed";
-  String get refreshing => "Refreshing...";
-  String get releaseToLoad => "Release to load";
-  String get releaseToRefresh => "Release to refresh";
-  String get updateAt => "Update at %T";
+  String get refreshed => "刷新完成";
+  String get noMore => "没有更多数据";
+  String get pullToRefresh => "拉动刷新";
+  String get loadFailed => "加载失败";
+  String get updateAt => "更新于 %T";
+  String get loading => "正在加载...";
+  String get refreshFinish => "刷新完成";
+  String get releaseToLoad => "释放加载";
+  String get loadFinish => "加载完成";
+  String get loaded => "加载完成";
+  String get completeLoad => "完成加载";
+  String get refreshFailed => "刷新失败";
+  String get pushToLoad => "拉动加载";
+  String get releaseToRefresh => "释放刷新";
+  String get refreshing => "正在刷新...";
+  String get completeRefresh => "完成刷新";
 }
 
 class $zh_HK extends GlobalEasyRefreshLocalizations {
